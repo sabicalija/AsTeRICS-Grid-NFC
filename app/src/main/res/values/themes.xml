@@ -5,5 +5,10 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.AsTeRICSGridNFC" parent="Base.Theme.AsTeRICSGridNFC" />
+    <style name="Theme.AsTeRICSGridNFC" parent="Base.Theme.AsTeRICSGridNFC">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/accent</item>
+        <item name="materialButtonStyle">@style/CustomButtonStyle</item>
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+    </style>
 </resources>
